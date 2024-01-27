@@ -1,0 +1,352 @@
+/* header */
+.main-container {
+    max-width: 90vw;
+    margin-left: 320px;
+    margin-right: 16px;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-header-navigation);
+}
+
+.header_navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg--icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--bg-header-search);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header-login .subscribe {
+    color: var(--color-subscribe);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border-style: none;
+    cursor: pointer;
+    transition: transform .4s;
+
+}
+
+.header-login .subscribe:hover {
+  transform: scale(0.95);}
+
+.header-login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--color-login-button-text);
+    background-color: var(--color-login-button);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border-style: none;
+    cursor: pointer;
+
+    transition: transform .4s;
+}
+
+.header-login .login.login:hover {
+  transform: scale(1.1);}
+
+/* desafio alura quarta*/
+
+ /* PLAYLIST */
+ .playlist-container {
+    height: 78vh;
+    padding-top: 16px;
+    margin: 10px 25px 0 330px;
+    border-radius: 10px;
+    background-color: var(--color-navigation);
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* SCROLL */
+  .offer__scroll-container {
+    max-height: 46vh;
+    margin: 24px;
+    overflow-y: auto;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* FIM SCROLL */
+  
+  .offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+  
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    position: relative; 
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform .4s;
+  }
+
+  .cards:hover {
+    transform: scale(0.96);}
+  
+  .cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* COLOR CARDS */
+  .card1 {
+    background-image: linear-gradient(to top right, #b81021, #d6ac85)
+  }
+  .card2 {
+    background-image: linear-gradient(to top right, #5ab3e3, #b991b3)
+  }
+  .card3 {
+    background-image: linear-gradient(to top right, #150050, #4100f4)
+  }
+  .card4 {
+    background-image: linear-gradient(to top right, #920523, #f7486d)
+  }
+  .card5 {
+    background-image: linear-gradient(to top right, #111016, #222637)
+  }
+  .card6 {
+    background-image: linear-gradient(to top right, #81080a, #0814aa)
+  }
+  .card7 {
+    background-image: linear-gradient(to top right, #172f6b, #509bf6)
+  }
+  .card8 {
+    background-image: linear-gradient(to top right, #670000, #a5462e)
+  }
+  .card9 {
+    background-image: linear-gradient(to top right, #2d46ba, #19e58c)
+  }
+  .card10 {
+    background-image: linear-gradient(to top right, #c77334, #fcc330)
+  }
+  .card11 {
+    background-image: linear-gradient(to top right, #1b1515, #ec1e32)
+  }
+  .card12 {
+    background-image: linear-gradient(to top right, #251f23, #322239)
+  }
+  .card13 {
+    background-image: linear-gradient(to top right, #a5bbd2, #7e7e7e)
+  }
+  .card14 {
+    background-image: linear-gradient(to top right, #599cbb, #d9a387)
+  }
+  .card15 {
+    background-image: linear-gradient(to top right, #cbc3be, #94824c)
+  }
+
+
+  
+  .offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+  }
+  
+  /* card artistas */
+  
+  .artist {
+    --column-count: 54;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .grid-container {
+    grid-gap:24px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+  }
+  
+  .artist-card {
+    background: var(--bg-color-artist-card);
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .artist-card:hover {
+    background-color:var(--bg-color-artist-card-hover);
+  }
+  
+  .card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+  }
+  
+  .card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+  }
+  
+  .artist-categorie {
+    color: white;
+    font-weight: 400;
+    font-size: 0.775rem;
+  }
+  
+  .play {
+    position: relative;
+  }
+  
+  .play .fa-play {
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    padding: 18px;
+    background-color: var(--color-play-button);
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  
+  .artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  .play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #result-artist {
+    padding: 20px 40px;
+  }

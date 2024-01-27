@@ -1,0 +1,37 @@
+:root {
+    /* fontes */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /*colors*/
+    --bg--icon: #131313;
+    --bg-arrow-color:#07011a;
+    --bg-panels: #090920;
+    --color-sidebar: #F8F9FA;
+    --bg-playlist: #02010A;
+    --bg-podcast: #02010A;
+    --playlist-text: #F8F9FA;
+    --bg-button-playlist: #090920;
+    --color-button-playlist: #F8F9FA;
+    --color-cookies: #F8F9FA;
+    --border-language: #ADB5BD;
+    --color-text-language: #F8F9FA;
+    --podcast-text: #F8F9FA;
+    --bg-button-podcast: #090920;
+    --color-button-podcast: #F8F9FA;
+    --footer-gradient: linear-gradient(to right, #0b132b, #11001c);
+    --bg-premium-title: #F8F9FA;
+    --color-premium-button: #F8F9FA;
+    --color-premium-buttontext: #090920;
+    --bg-header-navigation: #090920;
+    --bg-header-search: #02010A;
+    --color-subscribe: #F8F9FA;
+    --color-login-button-text: #02010A;
+    --color-login-button:#F8F9FA;
+    --color-navigation: #090920;
+    --color-navigation-text: #F8F9FA;
+
+    --bg-color-artist-card: #020211;
+    --bg-color-artist-card-hover: #02010A;
+    --color-play-button: #ADB5BD;
+
+}
